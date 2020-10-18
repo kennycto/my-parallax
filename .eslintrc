@@ -1,0 +1,21 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["standard", "standard-react", "prettier", "prettier/react"],
+  "env": {
+    "es6": true,
+    "browser": true
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    "react/jsx-boolean-value": 0,
+    "no-var": "error",
+    "prefer-const": "error"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}
