@@ -37,3 +37,4 @@ Dev dependencies and husky settings need to be manually added after finishing in
         ]
     }
 ```
+# my-parallax
